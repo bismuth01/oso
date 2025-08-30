@@ -15,4 +15,4 @@ SELECT
   profiles.bio AS bio,
   profiles.profile_picture_snapshot_location_url AS profile_picture_url,
   profiles.cover_picture_snapshot_location_url AS cover_picture_url
-FROM @oso_source('bigquery.lens_v2_polygon.profile_metadata') AS profiles
+FROM @oso_source('bigquery.lens_chain_mainnet.profile_metadata') AS profiles
